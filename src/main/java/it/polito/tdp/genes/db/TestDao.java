@@ -15,6 +15,8 @@ public class TestDao {
 			System.out.format("%-10s %-20s %1d\n", g.getGeneId(), g.getEssential(), g.getChromosome() );
 		}
 		
+		System.out.println(dao.getAllChromosome());
+		
 	}
 
 }
